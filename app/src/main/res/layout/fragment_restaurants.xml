@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fgt.RestaurantsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:background="@color/main_color"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48">
+            <ImageView
+                android:id="@+id/fgt_restaurants_qh"
+                android:layout_width="@dimen/dp_48"
+                android:layout_height="@dimen/dp_48"
+                android:padding="@dimen/dp_12"
+                android:src="@mipmap/liebiao"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurants"
+                android:textColor="@color/color_while"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/sp_18"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="@color/color_666"/>
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/color_f6">-->
+            <!--<ListView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:scrollbars="none"-->
+                <!--android:dividerHeight="@dimen/dp_10"-->
+                <!--android:layout_margin="@dimen/dp_10"-->
+                <!--android:divider="@color/color_f6"-->
+                <!--android:id="@+id/fgt_restaurants_lv"/>-->
+        <!--</RelativeLayout>-->
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/fgt_home_refreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.scwang.smartrefresh.layout.header.ClassicsHeader
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/fgt_restaurants_rv"/>
+            <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidTravel</string>
+    <string name="string_discover">Discover</string>
+    <string name="string_guide">Guide</string>
+    <string name="string_statistics">Statistics</string>
+    <string name="string_settings">Settings</string>
+    <string name="string_passport_certification">Passport certification</string>
+    <string name="string_submit">SUBMIT</string>
+    <string name="string_pass_port">(To ensure certification, make sure the photo is clearly visible)</string>
+    <string name="string_bind_bank_card">Bind Bank Card</string>
+    <string name="string_card_num">Card Number</string>
+    <string name="string_bank">Bank</string>
+    <string name="string_opening_bank">Opening Bank</string>
+    <string name="string_save">SAVE</string>
+    <string name="string_name">Name</string>
+    <string name="string_local_name">Local Name</string>
+    <string name="string_passport_name">Passport Name</string>
+    <string name="string_residential_address">Residential Address</string>
+    <string name="string_bind_paypal">Bound PayPal</string>
+    <string name="string_phone_verify">Verification Of Mobile Phone</string>
+    <string name="string_emall_verify">Mailbox Verification</string>
+    <string name="string_unverified">Unverified</string>
+    <string name="string_edit_information">Edit Your Profile</string>
+    <string name="language_cn">中文</string>
+    <string name="language_en">English</string>
+    <string name="language_auto">当地语言</string>
+    <string name="string_cancel">CANCEL</string>
+    <string name="string_fan">中國台灣</string>
+    <string name="string_personal_stores">Personal Stores</string>
+    <string name="string_my_certification">My Certification</string>
+    <string name="string_my_language">My LANGUAGE</string>
+    <string name="string_phone_number">Phone Number</string>
+    <string name="string_your_phone_number">Your phone number</string>
+    <string name="string_verification_code">Auth Code</string>
+    <string name="string_qtxyzm">Please fill in the verification code</string>
+    <string name="string_get_code">Get Code</string>
+    <string name="string_augusta_lucilla_palace">Augusta Lucilla Palace</string>
+    <string name="string_synopsis">Synopsis</string>
+    <string name="string_commodity">Commodity</string>
+</resources>

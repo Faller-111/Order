@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/main_color"
+    tools:context=".aty.PayNowAty">
+    <RelativeLayout
+        android:background="@color/main_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48">
+        <ImageView
+            android:id="@+id/activity_edit_information_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/left_back_black"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginStart="@dimen/dp_20"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAY NOW"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18"
+            android:layout_centerInParent="true"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/aty_pay_now_lv"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="@dimen/dp_1"
+        android:background="@color/color_f6"
+        android:divider="@color/color_f6"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/color_f6"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="@color/color_while">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="¥ 66"
+            android:textColor="#ff0000"
+            android:id="@+id/aty_pay_now_price"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginLeft="@dimen/dp_10"/>
+        <TextView
+            android:id="@+id/aty_pay_now_post"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="提交订单"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/color_333"
+            android:background="@color/main_color"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingRight="@dimen/dp_20"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">AndroidTravel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_discover">发现</string>
+    <string name="string_guide">指南</string>
+    <string name="string_statistics">统计</string>
+    <string name="string_settings">设置</string>
+    <string name="string_passport_certification">护照认证</string>
+    <string name="string_submit">提交</string>
+    <string name="string_pass_port">(为保证认证通过，请确保照片清晰可见)</string>
+    <string name="string_bind_bank_card">绑定银行卡</string>
+    <string name="string_card_num">卡号</string>
+    <string name="string_bank">银行</string>
+    <string name="string_opening_bank">开户行</string>
+    <string name="string_save">保存</string>
+    <string name="string_name">名字</string>
+    <string name="string_local_name">当地名字</string>
+    <string name="string_passport_name">护照名字</string>
+    <string name="string_residential_address">居住地址</string>
+    <string name="string_bind_paypal">绑定PayPal</string>
+    <string name="string_phone_verify">手机验证</string>
+    <string name="string_emall_verify">邮箱验证</string>
+    <string name="string_unverified">未认证</string>
+    <string name="string_edit_information">编辑个人信息</string>
+    <string name="language_cn">中文</string>
+    <string name="language_en">English</string>
+    <string name="language_auto">当地语言</string>
+    <string name="string_cancel">取消</string>
+    <string name="string_fan">中國台灣</string>
+    <string name="string_personal_stores">我的店铺</string>
+    <string name="string_my_certification">我的认证</string>
+    <string name="string_my_language">我的语言</string>
+    <string name="string_phone_number">手机号</string>
+    <string name="string_your_phone_number">你的手机号</string>
+    <string name="string_verification_code">验证码</string>
+    <string name="string_qtxyzm">请填写验证码</string>
+    <string name="string_get_code">获取验证码</string>
+    <string name="string_augusta_lucilla_palace">奥古斯塔鲁西拉宫酒店</string>
+    <string name="string_synopsis">简介</string>
+    <string name="string_commodity">商品</string>
+    <string name="string_edit_store">编辑商铺</string>
+    <string name="string_store_name">商铺名称</string>
+    <string name="string_tel">电话</string>
+    <string name="string_add">地址</string>
+    <string name="string_business_time">营业时间</string>
+    <string name="string_picature">图片</string>
+    <string name="string_introduce">介绍</string>
+    <string name="string_store_introduce">商铺介绍</string>
+    <string name="string_shop_statistics">店铺统计</string>
+    <string name="string_home">首页</string>
+    <string name="string_restaurants">餐厅</string>
+    <string name="string_deals">交易</string>
+    <string name="string_profile">简况</string>
+    <string name="view_behavior_merchant_page">com.example.learn.business.MerchantPageBehavior</string>
+</resources>
