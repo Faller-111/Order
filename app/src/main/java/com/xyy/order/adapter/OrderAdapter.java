@@ -28,6 +28,7 @@ public class OrderAdapter extends FragmentPagerAdapter{
         return fragmentList.get(position);
     }
 
+
     @Override
     public int getCount() {
         return fragmentList.size();
